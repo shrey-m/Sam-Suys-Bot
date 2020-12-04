@@ -1,6 +1,5 @@
 # bot.py
 import os
-from dotenv import load_dotenv
 
 from datetime import datetime
 import threading
@@ -8,8 +7,6 @@ import threading
 import discord
 from discord.ext import commands
 import asyncio
-
-load_dotenv()
 
 client = commands.Bot(command_prefix='!')#discord.Client()
 
